@@ -12,15 +12,18 @@ function randomNumber() {
 
 randomNumber();
 
-function timer() {
-    for (let i = 30; i >= 1; i--) {
-        setTimeout (i, 1000);
-        document.getElementById('timer_box').innerHTML += i;
 
-    }
+
+const clock = setInterval(timer, 1000);
+
+let second = 30;
+
+function timer (){
+
+    document.getElementById('timer_box').innerHTML = second-- + 's';
 }
 
-timer ();
+
 
 
 
