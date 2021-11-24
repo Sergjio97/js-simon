@@ -28,8 +28,8 @@ function timer (){
 
 for (let i = 0; i < 5; i++){
     let user = parseInt(prompt('Inserisci i numeri che hai visualizzato'))
-    if (user == numeriRandom){
-        alert('hai vinto')
+    if (numeriRandom.includes(user)){
+        alert('Esatto')
     } else {
         alert('hai perso')
     }
