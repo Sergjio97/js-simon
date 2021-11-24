@@ -12,16 +12,20 @@ function randomNumber() {
 
 randomNumber();
 
-
-
 const clock = setInterval(timer, 1000);
 
 let second = 30;
 
 function timer (){
-
     document.getElementById('timer_box').innerHTML = second-- + 's';
+    if (second == -1){
+        clearInterval(clock);
+    }   
 }
+
+
+
+
 
 
 
