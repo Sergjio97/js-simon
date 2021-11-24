@@ -9,5 +9,3 @@ Consigli del giorno:
 * Dividete in piccoli problemi la consegna.
 * Individuate gli elementi di cui avete bisogno per realizzare il programma.
 
-1 : Faccio un math.random di 5 numeri da visualizzare in pagina
-2 : Faccio partire un timer di 30 secondi con setTimeout
